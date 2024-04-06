@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf */*.out
-rm -rf */*.vcd
+rm -rf *.out
+rm -rf *.vcd
