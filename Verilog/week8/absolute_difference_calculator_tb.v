@@ -1,5 +1,5 @@
 module absolute_difference_calculator_tb;
-  reg [3:0] A, B;
+  reg  [3:0] A, B;
   wire [3:0] result;
 
   absolute_difference_calculator calc (.A(A), .B(B), .result(result));
@@ -12,8 +12,8 @@ module absolute_difference_calculator_tb;
         #1;
 
         if (
-            (A > B & result != A - B) |
-            (A < B & result != B - A) |
+            (A > B  & result != A - B) |
+            (A < B  & result != B - A) |
             (A == B & result != 0)
         ) begin
           $display("[%d, %d] ERROR: Wrong output", A, B);
