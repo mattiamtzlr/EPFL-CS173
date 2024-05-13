@@ -7,9 +7,11 @@ module fsm_tb;
   initial begin
     $dumpfile("fsm.vcd");
     $dumpvars(0, fsm_tb);
+
     reset = 1;
     clk = 0;
     W = 0;
+
     #10 reset = 0; // State -> 00
     $display("Internal State = %b, Output = %b", DUT.S, Z);
     #10; // 00 -> 10
