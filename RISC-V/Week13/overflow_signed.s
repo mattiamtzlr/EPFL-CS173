@@ -11,7 +11,6 @@ exit:
     li   a0, 17
     add  a1, x0, t6
     ecall
-    
 
 
 overflow:
