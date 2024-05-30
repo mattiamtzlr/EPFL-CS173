@@ -2,7 +2,7 @@
   vector: .half 3751, 8413,  423, -120, 9138, 2391, -374,  746, 5672, 2410
   #             A[0], B[0], A[1], B[1], A[2], B[2], A[3], B[3], A[4], B[4]
 
-  # Because of little-endian byte-ordering A[i] will actually be in the LSB 
+  # Because of little-endian byte-ordering A[i] will actually be in the LSB
   # and B[i] in the MSB
 
   # Expected # of A[i] > B[i]: 3
