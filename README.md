@@ -1,6 +1,7 @@
 # EPFL CS-173
 
-Everything related to the EPFL CS-173 Fundamentals of digital systems course.
+Everything related to the EPFL CS-173 Fundamentals of digital systems course.  
+The two PDFs [CS-173 Exercises-Book](./CS-173 Exercises-Book.pdf) and [RV32I Reference Card](./RV32I Reference Card.pdf) have **not** been created by me, but by the course team.
 
 ## Content
 - [LogiSim](./LogiSim/) - Logic Circuit modeling using [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)
