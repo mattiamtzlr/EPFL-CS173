@@ -12,7 +12,7 @@
 init:
     li   t6, 0                  # initialise element counter
     add  t0, zero, s0           # t0 points to array0[0]
-    add  t1, zero, s1           # t0 points to array1[0]
+    add  t1, zero, s1           # t1 points to array1[0]
 
     li   s3, 0                  # initialise difference counter
 
