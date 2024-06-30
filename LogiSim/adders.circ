@@ -104,13 +104,13 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="FullAdder"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(330,200)" name="Pin">
+    <comp lib="0" loc="(340,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Si"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(330,350)" name="Pin">
+    <comp lib="0" loc="(340,350)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Ci_1"/>
@@ -128,21 +128,17 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Yi"/>
     </comp>
-    <comp lib="1" loc="(310,350)" name="OR Gate">
+    <comp lib="1" loc="(340,350)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
     <comp loc="(200,340)" name="HalfAdder"/>
-    <comp loc="(250,200)" name="HalfAdder"/>
-    <wire from="(130,220)" to="(130,290)"/>
-    <wire from="(130,220)" to="(150,220)"/>
-    <wire from="(130,290)" to="(200,290)"/>
-    <wire from="(200,290)" to="(200,340)"/>
-    <wire from="(200,360)" to="(280,360)"/>
-    <wire from="(250,200)" to="(330,200)"/>
-    <wire from="(250,220)" to="(250,340)"/>
-    <wire from="(250,340)" to="(280,340)"/>
-    <wire from="(310,350)" to="(330,350)"/>
-    <wire from="(70,200)" to="(150,200)"/>
+    <comp loc="(300,200)" name="HalfAdder"/>
+    <wire from="(200,220)" to="(200,340)"/>
+    <wire from="(200,360)" to="(310,360)"/>
+    <wire from="(300,200)" to="(340,200)"/>
+    <wire from="(300,220)" to="(300,340)"/>
+    <wire from="(300,340)" to="(310,340)"/>
+    <wire from="(70,200)" to="(200,200)"/>
     <wire from="(70,240)" to="(90,240)"/>
     <wire from="(70,280)" to="(70,360)"/>
     <wire from="(70,360)" to="(100,360)"/>
@@ -226,7 +222,7 @@
       <a name="facing" val="north"/>
       <a name="label" val="Y0"/>
     </comp>
-    <comp lib="8" loc="(166,397)" name="Text">
+    <comp lib="8" loc="(165,395)" name="Text">
       <a name="text" val="Worst case gate delay: 48 ns"/>
     </comp>
     <comp loc="(170,180)" name="FullAdder"/>
@@ -397,9 +393,9 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="5" loc="(650,290)" name="7-Segment Display">
-      <a name="color" val="#dd2ff0"/>
+      <a name="color" val="#f0096d"/>
       <a name="decimalPoint" val="false"/>
-      <a name="offcolor" val="#919191"/>
+      <a name="offcolor" val="#d1d1d1"/>
     </comp>
     <comp lib="8" loc="(125,50)" name="Text">
       <a name="text" val="Seven Segment Display"/>
@@ -807,9 +803,11 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="5" loc="(650,290)" name="7-Segment Display">
+      <a name="color" val="#f03d00"/>
       <a name="decimalPoint" val="false"/>
     </comp>
     <comp lib="5" loc="(650,660)" name="7-Segment Display">
+      <a name="color" val="#f03b00"/>
       <a name="decimalPoint" val="false"/>
     </comp>
     <comp loc="(330,460)" name="FourBitRippleCarryAddSub"/>
